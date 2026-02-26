@@ -16,10 +16,6 @@ def pagina_inicial():
     # Por enquanto, retornamos uma string HTML simples
     return '<h1>Olá, mundo!</h1><p>Meu primeiro servidor Flask está funcionando.</p>'
 
-@app.route('/incrivel')
-def exibir_fodase():
-    return '<h1>top de linha</h1>'
-
 @app.route('/varias_linhas')
 def varias_linhas():
     return '''
